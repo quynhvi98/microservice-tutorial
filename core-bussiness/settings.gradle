@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'bussiness-service'
+include 'admin-service'
+include 'user-service'
+include 'timesheet-service'
